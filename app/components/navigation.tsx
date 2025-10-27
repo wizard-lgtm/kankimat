@@ -79,6 +79,8 @@ export default function Navigation() {
             className="lg:hidden"
             variant="ghost"
             size="icon"
+            aria-expanded={mobileMenuOpen}
+            aria-label="Toggle menu"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
@@ -91,33 +93,35 @@ export default function Navigation() {
 
         {/* Mobile Menu Drawer */}
         {mobileMenuOpen && (
-          <div className="mt-4 flex flex-col items-center gap-4 lg:hidden animate-in fade-in slide-in-from-top duration-300">
-            {[
-              "anasayfa",
-              "neden-biz",
-              "paketlerimiz",
-              "referanslar",
-              "hakkimizda",
-              "iletisim",
-            ].map((item) => (
-              <button
-                key={item}
-                onClick={() => scrollToSection(item)}
-                className="text-gray-700 hover:text-pink-600 transition-colors font-medium capitalize"
-              >
-                {item === "neden-biz"
-                  ? "Neden Biz"
-                  : item === "anasayfa"
-                  ? "Anasayfa"
-                  : item === "paketlerimiz"
-                  ? "Paketlerimiz"
-                  : item === "referanslar"
-                  ? "Referanslar"
-                  : item === "hakkimizda"
-                  ? "Hakkımızda"
-                  : "İletişim"}
-              </button>
-            ))}
+          <div className="mt-4 lg:hidden animate-in fade-in slide-in-from-top duration-300">
+            <div className="p-4 bg-white/95 rounded-lg shadow-lg space-y-2">
+              {[
+                "anasayfa",
+                "neden-biz",
+                "paketlerimiz",
+                "referanslar",
+                "hakkimizda",
+                "iletisim",
+              ].map((item) => (
+                <button
+                  key={item}
+                  onClick={() => scrollToSection(item)}
+                  className="text-gray-700 hover:text-pink-600 transition-colors font-medium capitalize py-2 px-4 w-full text-left rounded-md"
+                >
+                  {item === "neden-biz"
+                    ? "Neden Biz"
+                    : item === "anasayfa"
+                    ? "Anasayfa"
+                    : item === "paketlerimiz"
+                    ? "Paketlerimiz"
+                    : item === "referanslar"
+                    ? "Referanslar"
+                    : item === "hakkimizda"
+                    ? "Hakkımızda"
+                    : "İletişim"}
+                </button>
+              ))}
+            </div>
           </div>
         )}
       </div>

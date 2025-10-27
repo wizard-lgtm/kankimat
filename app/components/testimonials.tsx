@@ -11,11 +11,11 @@ export default function TestimonialsSection() {
   return (
     <section
       id="referanslar"
-      className="bg-gradient-to-b from-pink-50 to-white py-20"
+      className="md:min-h-screen md:flex md:items-center bg-gradient-to-b from-pink-50 to-white py-12 md:py-20"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Herkes{" "}
             <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
               Kanki
@@ -23,7 +23,7 @@ export default function TestimonialsSection() {
             <span className="text-gray-900">mat</span>.com.tr'u tavsiye ediyor
           </h2>
 
-          <p className="text-xl text-gray-600">
+          <p className="text-lg md:text-xl text-gray-600">
             Herkes{" "}
             <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
               Kanki

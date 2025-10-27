@@ -4,11 +4,14 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, Phone } from "lucide-react";
 export default function HeroSection() {
   return (
-    <section id="anasayfa" className="container mx-auto px-4 py-20">
+    <section
+      id="anasayfa"
+      className="md:min-h-screen md:flex md:items-center container mx-auto px-4 sm:px-6 py-12 md:py-20"
+    >
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8 animate-in fade-in slide-in-from-left duration-700">
           <div className="space-y-4">
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
                 Kanki
               </span>
@@ -18,7 +21,7 @@ export default function HeroSection() {
               <span className="text-gray-600">.com.tr</span>
             </h1>
 
-            <p className="text-2xl text-gray-700">
+            <p className="text-lg sm:text-xl md:text-2xl text-gray-700">
               Matematiğin{" "}
               <span className="text-pink-600 font-semibold">Kankası</span>
             </p>
@@ -75,7 +78,7 @@ export default function HeroSection() {
         </div>
 
         <div className="relative animate-in fade-in slide-in-from-right duration-700">
-          <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-gradient-to-br from-pink-100 to-purple-100">
+          <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-gradient-to-br from-pink-100 to-purple-100 max-w-sm mx-auto">
             <div className="absolute inset-0 bg-gradient-to-br from-pink-500/20 to-purple-600/20" />
 
             <div className="absolute inset-0 flex items-center justify-center">
