@@ -31,16 +31,14 @@ export default function HeroSection() {
             <div className="flex items-center gap-3 group">
               <CheckCircle2 className="h-6 w-6 text-pink-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
 
-              <p className="text-lg text-gray-700">
-                Matematiğin alfabesini öğretiyoruz.
-              </p>
+              <p className="text-lg text-gray-700">Matematiğin kankası.</p>
             </div>
 
             <div className="flex items-center gap-3 group">
               <CheckCircle2 className="h-6 w-6 text-pink-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
 
               <p className="text-lg text-gray-700">
-                Matematik temeliniz mükemmel olacak.
+                Matematik öğrenmek kolay!.
               </p>
             </div>
 
@@ -55,7 +53,7 @@ export default function HeroSection() {
 
           <div className="space-y-4">
             <p className="text-sm text-gray-600 font-medium">
-              Ücretsiz Matematik Check Up İçin
+              Ücretsiz bilgi almak için
             </p>
 
             <Button
@@ -64,14 +62,14 @@ export default function HeroSection() {
               className="bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all hover:scale-105"
             >
               <a
-                href="https://wa.me/905322923193"
+                href="https://wa.me/905076427041"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
                 <Phone className="h-5 w-5" />
 
-                <span>Randevu Al</span>
+                <span>Bana ulaşın!</span>
               </a>
             </Button>
           </div>

@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
 
               role: "Boğaziçi Üni./Endüstri Müh.",
 
-              text: "Matematik en sevdiğim ders oldu. Hayalim olan Boğaziçi Üniversitesi Endüstri Mühendisliğine girdim.",
+              text: "Matematik en sevdiğim ders oldu. Meryem Hoca sayesinde hayalim olan Boğaziçi Üniversitesi Endüstri Mühendisliğine girdim.",
 
               rating: 5,
             },
@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
 
               role: "Öğrenci velisi",
 
-              text: "Çocuğum ile çok ilgilendiler artık matematiği severek yapıyor. Okul notu 98 oldu ve sınavlarda netleri yükseliyor.",
+              text: "Çocuğum artık matematiği severek yapıyor. Okul notu 98 oldu ve sınavlarda netleri yükseliyor.",
 
               rating: 5,
             },
@@ -57,9 +57,9 @@ export default function TestimonialsSection() {
             {
               name: "Ahmet Bal",
 
-              role: "Eğitimci Yazar",
+              role: "Eğitimci",
 
-              text: "Kankimat harika bir sistem ile matematik sorununu çözmüş. Başarılar diliyorum.",
+              text: "Yıllarca kızımı çeşitli dershanelere gönderdim. Fakat Meryem Hoca sayesinde oğlum sonunda istediği üniversiteye kavuştu!.",
 
               rating: 5,
             },

@@ -16,7 +16,7 @@ export default function FixedButtons({
         className="bg-green-500 hover:bg-green-600 shadow-lg rounded-full w-16 h-16 p-0 hover:scale-110 transition-transform animate-pulse"
       >
         <a
-          href="https://wa.me/905322923193"
+          href="https://wa.me/905076427041"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -29,10 +29,10 @@ export default function WhyUsSection() {
 
             <div>
               <p className="text-4xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-                1065+
+                500+
               </p>
 
-              <p className="text-gray-700 font-medium">Ücretsiz CheckUp</p>
+              <p className="text-gray-700 font-medium">Mezun Öğrenci</p>
             </div>
           </CardContent>
         </Card>
@@ -45,7 +45,7 @@ export default function WhyUsSection() {
 
             <div>
               <p className="text-4xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-                35+
+                15+
               </p>
 
               <p className="text-gray-700 font-medium">Yıllık Tecrübe</p>
@@ -79,7 +79,7 @@ export default function WhyUsSection() {
             title: "Deneyimli Eğitmen",
 
             description:
-              "35 yıllık tecrübesiyle uzman eğitmenlerden özel ders al",
+              "15 yıllık tecrübesiyle uzman eğitmenlerden özel ders al",
           },
 
           {

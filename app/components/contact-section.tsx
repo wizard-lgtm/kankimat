@@ -51,7 +51,7 @@ export default function ContactSection() {
                   const message = formData.get("message");
                   const whatsappMessage = `Merhaba,%0A%0A*İsim:* ${name}%0A*Telefon:* ${phone}%0A*Mesaj:* ${message}`;
                   window.open(
-                    `https://wa.me/905322923193?text=${whatsappMessage}`,
+                    `https://wa.me/905076427041?text=${whatsappMessage}`,
                     "_blank"
                   );
                   e.currentTarget.reset();
@@ -136,7 +136,7 @@ export default function ContactSection() {
                     href="tel:905322923193"
                     className="text-pink-600 hover:underline font-semibold"
                   >
-                    +90 532 292 31 93
+                    +90 507 642 70 41
                   </a>
                 </div>
               </CardContent>
@@ -152,10 +152,10 @@ export default function ContactSection() {
                   <p className="text-sm text-gray-600 font-medium">E-Posta</p>
 
                   <a
-                    href="mailto:destek@kankimat.com.tr"
+                    href="mailto:meryemkaraca1571@hotmail.com"
                     className="text-pink-600 hover:underline font-semibold"
                   >
-                    destek@kankimat.com.tr
+                    meryemkaraca1571@hotmail.com
                   </a>
                 </div>
               </CardContent>

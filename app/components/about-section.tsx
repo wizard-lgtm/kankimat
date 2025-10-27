@@ -32,7 +32,7 @@ export default function AboutSection() {
             </h3>
 
             <p className="text-gray-700 text-lg">
-              10 yıldır matematik öğretmenliği yapıyorum ve online eğitimde
+              15 yıldır matematik öğretmenliği yapıyorum ve online eğitimde
               uzmanlaştım. Matematiğin her öğrenciye öğretilebileceğine
               inanıyorum.
             </p>
@@ -52,7 +52,7 @@ export default function AboutSection() {
                 {[
                   "Matematik Öğretmenliği Lisans",
                   "Online Eğitim Sertifikası",
-                  "10+ Yıl Öğretmenlik Tecrübesi",
+                  "15+ Yıl Öğretmenlik Tecrübesi",
                   "500+ Başarılı Öğrenci",
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3 group">
