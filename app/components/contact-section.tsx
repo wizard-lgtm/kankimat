@@ -18,10 +18,7 @@ export default function ContactSection() {
     >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">
-          İletişime{" "}
-          <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-            Geçin
-          </span>
+          İletişime Geçin!
         </h2>
 
         <p className="text-center text-gray-600 mb-16 text-lg">
@@ -122,9 +119,9 @@ export default function ContactSection() {
           </Card>
 
           {/* Contact Info Below Form */}
-          <div className="mt-8 grid md:grid-cols-2 gap-4">
-            <Card className="border-2 border-pink-200 hover:shadow-lg transition-all">
-              <CardContent className="flex items-center gap-3 pt-6">
+          <div className="mt-8 grid md:grid-cols-2 gap-4 justify-items-center max-w-2xl mx-auto">
+            <Card className="w-full sm:w-80 border-2 border-pink-200 hover:shadow-lg transition-all">
+              <CardContent className="flex flex-col items-center gap-3 pt-6 text-center">
                 <div className="bg-gradient-to-br from-pink-100 to-purple-100 p-3 rounded-lg">
                   <Phone className="h-5 w-5 text-pink-600" />
                 </div>
@@ -133,7 +130,7 @@ export default function ContactSection() {
                   <p className="text-sm text-gray-600 font-medium">Telefon</p>
 
                   <a
-                    href="tel:905322923193"
+                    href="tel:905076427041"
                     className="text-pink-600 hover:underline font-semibold"
                   >
                     +90 507 642 70 41
@@ -142,8 +139,8 @@ export default function ContactSection() {
               </CardContent>
             </Card>
 
-            <Card className="border-2 border-pink-200 hover:shadow-lg transition-all">
-              <CardContent className="flex items-center gap-3 pt-6">
+            <Card className="w-full sm:w-80 border-2 border-pink-200 hover:shadow-lg transition-all">
+              <CardContent className="flex flex-col items-center gap-3 pt-6 text-center">
                 <div className="bg-gradient-to-br from-pink-100 to-purple-100 p-3 rounded-lg">
                   <Mail className="h-5 w-5 text-pink-600" />
                 </div>

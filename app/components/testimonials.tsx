@@ -15,20 +15,12 @@ export default function TestimonialsSection() {
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Herkes{" "}
-            <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-              Kanki
-            </span>
-            <span className="text-gray-900">mat</span>.com.tr'u tavsiye ediyor
+          <h2 className="text-3xl md:text-6xl font-bold mb-4">
+            Referanslarımız
           </h2>
 
           <p className="text-lg md:text-xl text-gray-600">
-            Herkes{" "}
-            <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
-              Kanki
-            </span>
-            <span className="text-gray-900">mat</span>'e güveniyor
+            Herkes kankimat'a güveniyor!
           </p>
         </div>
 

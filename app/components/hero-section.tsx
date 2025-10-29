@@ -2,13 +2,15 @@
 
 import { Button } from "@/components/ui/button";
 import { CheckCircle2, Phone } from "lucide-react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+
 export default function HeroSection() {
   return (
     <section
       id="anasayfa"
-      className="md:min-h-screen md:flex md:items-center container mx-auto px-4 sm:px-6 py-12 md:py-20"
+      className="md:min-h-screen md:flex md:items-center md:justify-center container mx-auto px-4 sm:px-6 py-12 md:py-20"
     >
-      <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <div className="grid lg:grid-cols-2 gap-12 items-center mx-auto text-center">
         <div className="space-y-8 animate-in fade-in slide-in-from-left duration-700">
           <div className="space-y-4">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
@@ -31,23 +33,21 @@ export default function HeroSection() {
             <div className="flex items-center gap-3 group">
               <CheckCircle2 className="h-6 w-6 text-pink-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
 
-              <p className="text-lg text-gray-700">Matematiğin kankası.</p>
-            </div>
-
-            <div className="flex items-center gap-3 group">
-              <CheckCircle2 className="h-6 w-6 text-pink-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
-
               <p className="text-lg text-gray-700">
-                Matematik öğrenmek kolay!.
+                Birebir Online Canlı Dersler.
               </p>
             </div>
 
             <div className="flex items-center gap-3 group">
               <CheckCircle2 className="h-6 w-6 text-pink-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
 
-              <p className="text-lg text-gray-700">
-                Matematiği keyifle çalışacaksınız.
-              </p>
+              <p className="text-lg text-gray-700">Esnek Ders Saatleri</p>
+            </div>
+
+            <div className="flex items-center gap-3 group">
+              <CheckCircle2 className="h-6 w-6 text-pink-600 flex-shrink-0 group-hover:scale-110 transition-transform" />
+
+              <p className="text-lg text-gray-700">Öğrenci Odaklı Anlatım.</p>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ export default function HeroSection() {
               >
                 <Phone className="h-5 w-5" />
 
-                <span>Bana ulaşın!</span>
+                <span>Bilgi Al!</span>
               </a>
             </Button>
           </div>
@@ -80,17 +80,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-br from-pink-500/20 to-purple-600/20" />
 
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center space-y-4 p-8">
-                <div className="text-6xl font-bold text-pink-600 animate-bounce">
-                  📐
-                </div>
-
-                <p className="text-2xl font-bold text-gray-800">
-                  Matematik Temeli
-                </p>
-
-                <p className="text-gray-600">Her şey doğru temelle başlar</p>
-              </div>
+              <DotLottieReact src="/hero.lottie" loop autoplay />
             </div>
           </div>
         </div>

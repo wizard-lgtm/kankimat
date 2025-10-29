@@ -7,7 +7,7 @@ export default function WhyUsSection() {
       id="neden-biz"
       className="md:min-h-screen md:flex md:flex-col md:items-center md:justify-center container mx-auto px-4 sm:px-6 py-12 md:py-20"
     >
-      <h2 className="text-4xl font-bold text-center mb-4 text-gray-900">
+      <h2 className="text-4xl md:text-6xl font-bold text-center mb-4 text-gray-900">
         Neden{" "}
         <span className="bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
           Kankimat

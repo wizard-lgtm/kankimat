@@ -851,6 +851,53 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@lit-labs/ssr-dom-shim@npm:^1.0.0, @lit-labs/ssr-dom-shim@npm:^1.1.0":
+  version: 1.4.0
+  resolution: "@lit-labs/ssr-dom-shim@npm:1.4.0"
+  checksum: 10c0/eb8b4c6ed83db48e2f2c8c038f88e0ac302214918e5c1209458cb82a35ce27ce586100c5692885b2c5520f6941b2c3512f26c4d7b7dd48f13f17f1668553395a
+  languageName: node
+  linkType: hard
+
+"@lit/reactive-element@npm:^1.3.0, @lit/reactive-element@npm:^1.6.0":
+  version: 1.6.3
+  resolution: "@lit/reactive-element@npm:1.6.3"
+  dependencies:
+    "@lit-labs/ssr-dom-shim": "npm:^1.0.0"
+  checksum: 10c0/10f1d25e24e32feb21c4c6f9e11d062901241602e12c4ecf746b3138f87fed4d8394194645514d5c1bfd5f33f3fd56ee8ef41344e2cb4413c40fe4961ec9d419
+  languageName: node
+  linkType: hard
+
+"@lottiefiles/dotlottie-react@npm:^0.17.6":
+  version: 0.17.6
+  resolution: "@lottiefiles/dotlottie-react@npm:0.17.6"
+  dependencies:
+    "@lottiefiles/dotlottie-web": "npm:0.55.0"
+  peerDependencies:
+    react: ^17 || ^18 || ^19
+  checksum: 10c0/71c18ae827689d3dd5cf5c492d018c4b7b04a540d6301fb1691ed0526f854eff5238b50847e332ffdfbc7c8cdac037ecb4eba6f4f0df22cb753857825f4d462c
+  languageName: node
+  linkType: hard
+
+"@lottiefiles/dotlottie-web@npm:0.55.0":
+  version: 0.55.0
+  resolution: "@lottiefiles/dotlottie-web@npm:0.55.0"
+  checksum: 10c0/c067831f62a7c257aea264a99b95054fbe96e3494e850cbbddacd8c0ad26dd5e8baa0d85c82d2145dcba8ff6f49614f5c904bf8969471bdf97cc5c703e3f9061
+  languageName: node
+  linkType: hard
+
+"@lottiefiles/lottie-player@npm:^2.0.12":
+  version: 2.0.12
+  resolution: "@lottiefiles/lottie-player@npm:2.0.12"
+  dependencies:
+    "@types/pako": "npm:^1.0.1"
+    lit: "npm:^2.1.2"
+    lottie-web: "npm:^5.12.2"
+    pako: "npm:^2.0.4"
+    resize-observer-polyfill: "npm:^1.5.1"
+  checksum: 10c0/d13ed1768707fbee5abc4af875ef9ec9d47db5498b4992c0c17b9cc9b99b608cfed3469333a62359378a6210c73448aac33a3d0c60bb65d748154b7ce1dee9f1
+  languageName: node
+  linkType: hard
+
 "@modelcontextprotocol/sdk@npm:^1.17.2":
   version: 1.20.2
   resolution: "@modelcontextprotocol/sdk@npm:1.20.2"
@@ -1332,6 +1379,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/pako@npm:^1.0.1":
+  version: 1.0.7
+  resolution: "@types/pako@npm:1.0.7"
+  checksum: 10c0/1ba133db0b30a974c3d651c85651fd30135f629727b4b4d7ef2649c8f8b01014d5ef41f75399d939e320a50bfa87c32beccbb513badfeaf85d74ea6d5370fdcc
+  languageName: node
+  linkType: hard
+
 "@types/react-dom@npm:^19":
   version: 19.2.2
   resolution: "@types/react-dom@npm:19.2.2"
@@ -1354,6 +1408,13 @@ __metadata:
   version: 2.0.6
   resolution: "@types/statuses@npm:2.0.6"
   checksum: 10c0/dd88c220b0e2c6315686289525fd61472d2204d2e4bef4941acfb76bda01d3066f749ac74782aab5b537a45314fcd7d6261eefa40b6ec872691f5803adaa608d
+  languageName: node
+  linkType: hard
+
+"@types/trusted-types@npm:^2.0.2":
+  version: 2.0.7
+  resolution: "@types/trusted-types@npm:2.0.7"
+  checksum: 10c0/4c4855f10de7c6c135e0d32ce462419d8abbbc33713b31d294596c0cc34ae1fa6112a2f9da729c8f7a20707782b0d69da3b1f8df6645b0366d08825ca1522e0c
   languageName: node
   linkType: hard
 
@@ -4078,6 +4139,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "kankimat@workspace:."
   dependencies:
+    "@lottiefiles/dotlottie-react": "npm:^0.17.6"
+    "@lottiefiles/lottie-player": "npm:^2.0.12"
     "@radix-ui/react-slot": "npm:^1.2.3"
     "@tailwindcss/postcss": "npm:^4"
     "@types/node": "npm:^20"
@@ -4087,6 +4150,7 @@ __metadata:
     clsx: "npm:^2.1.1"
     eslint: "npm:^9"
     eslint-config-next: "npm:16.0.0"
+    lottie-react: "npm:^2.4.1"
     lucide-react: "npm:^0.548.0"
     next: "npm:16.0.0"
     react: "npm:19.2.0"
@@ -4276,6 +4340,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lit-element@npm:^3.3.0":
+  version: 3.3.3
+  resolution: "lit-element@npm:3.3.3"
+  dependencies:
+    "@lit-labs/ssr-dom-shim": "npm:^1.1.0"
+    "@lit/reactive-element": "npm:^1.3.0"
+    lit-html: "npm:^2.8.0"
+  checksum: 10c0/f44c12fa3423a4e9ca5b84651410687e14646bb270ac258325e6905affac64a575f041f8440377e7ebaefa3910b6f0d6b8b1e902cb1aa5d0849b3fdfbf4fb3b6
+  languageName: node
+  linkType: hard
+
+"lit-html@npm:^2.8.0":
+  version: 2.8.0
+  resolution: "lit-html@npm:2.8.0"
+  dependencies:
+    "@types/trusted-types": "npm:^2.0.2"
+  checksum: 10c0/90057dee050803823ac884c1355b0213ab8c05fbe2ec63943c694b61aade5d36272068f3925f45a312835e504f9c9784738ef797009f0a756a750351eafb52d5
+  languageName: node
+  linkType: hard
+
+"lit@npm:^2.1.2":
+  version: 2.8.0
+  resolution: "lit@npm:2.8.0"
+  dependencies:
+    "@lit/reactive-element": "npm:^1.6.0"
+    lit-element: "npm:^3.3.0"
+    lit-html: "npm:^2.8.0"
+  checksum: 10c0/bf33c26b1937ee204aed1adbfa4b3d43a284e85aad8ea9763c7865365917426eded4e5888158b4136095ea42054812561fe272862b61775f1198fad3588b071f
+  languageName: node
+  linkType: hard
+
 "locate-path@npm:^6.0.0":
   version: 6.0.0
   resolution: "locate-path@npm:6.0.0"
@@ -4310,6 +4405,25 @@ __metadata:
   bin:
     loose-envify: cli.js
   checksum: 10c0/655d110220983c1a4b9c0c679a2e8016d4b67f6e9c7b5435ff5979ecdb20d0813f4dec0a08674fcbdd4846a3f07edbb50a36811fd37930b94aaa0d9daceb017e
+  languageName: node
+  linkType: hard
+
+"lottie-react@npm:^2.4.1":
+  version: 2.4.1
+  resolution: "lottie-react@npm:2.4.1"
+  dependencies:
+    lottie-web: "npm:^5.10.2"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10c0/7f6a0a2cf2af25deabe7b4d4c9917e47d12016673613c59dcdd8ef52e10e914dd0c1f71d4a275d56aaba03fe9d85b333087f7c8d40a8f967ece4a0444c7a3cdf
+  languageName: node
+  linkType: hard
+
+"lottie-web@npm:^5.10.2, lottie-web@npm:^5.12.2":
+  version: 5.13.0
+  resolution: "lottie-web@npm:5.13.0"
+  checksum: 10c0/b463ad462169df3f7e04b7f3716274e269842554f1d72b8303ca7245628f2512982a59ae31698b3d57fbcda886228ae160fcb2aa518c6cecd8a95974db2458ee
   languageName: node
   linkType: hard
 
@@ -4830,6 +4944,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pako@npm:^2.0.4":
+  version: 2.1.0
+  resolution: "pako@npm:2.1.0"
+  checksum: 10c0/8e8646581410654b50eb22a5dfd71159cae98145bd5086c9a7a816ec0370b5f72b4648d08674624b3870a521e6a3daffd6c2f7bc00fdefc7063c9d8232ff5116
+  languageName: node
+  linkType: hard
+
 "parent-module@npm:^1.0.0":
   version: 1.0.1
   resolution: "parent-module@npm:1.0.1"
@@ -5132,6 +5253,13 @@ __metadata:
   version: 2.1.1
   resolution: "require-directory@npm:2.1.1"
   checksum: 10c0/83aa76a7bc1531f68d92c75a2ca2f54f1b01463cb566cf3fbc787d0de8be30c9dbc211d1d46be3497dac5785fe296f2dd11d531945ac29730643357978966e99
+  languageName: node
+  linkType: hard
+
+"resize-observer-polyfill@npm:^1.5.1":
+  version: 1.5.1
+  resolution: "resize-observer-polyfill@npm:1.5.1"
+  checksum: 10c0/5e882475067f0b97dc07e0f37c3e335ac5bc3520d463f777cec7e894bb273eddbfecb857ae668e6fb6881fd6f6bb7148246967172139302da50fa12ea3a15d95
   languageName: node
   linkType: hard
 
