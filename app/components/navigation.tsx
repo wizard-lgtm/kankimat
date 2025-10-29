@@ -21,7 +21,6 @@ export default function Navigation() {
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     }
-    setMobileMenuOpen(false);
   };
 
   return (

@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <section
       id="anasayfa"
-      className="md:min-h-screen md:flex md:items-center md:justify-center container mx-auto px-4 sm:px-6 py-12 md:py-20"
+      className="min-h-screen flex items-center justify-center container mx-auto px-4 sm:px-6 py-12 md:py-20"
     >
       <div className="grid lg:grid-cols-2 gap-12 items-center mx-auto text-center">
         <div className="space-y-8 animate-in fade-in slide-in-from-left duration-700">
